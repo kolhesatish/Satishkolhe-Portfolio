@@ -1,0 +1,16 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood result="flood" flood-color="purple" flood-opacity="1"/>
+      <feComposite in="flood" in2="SourceAlpha" operator="in"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="50" y="60" font-size="50" font-family="Arial, sans-serif" fill="purple" filter="url(#800080)">
+    SK
+  </text>
+</svg>

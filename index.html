@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+	<title>Satish Kolhe</title>
+	<link rel="icon" type="image/x-icon" href="./sk.svg">
+	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+	</style>
+</head>
+
+<!-- Body -->
+<body class="bg-gradient-to-br from-gray-900 to-blue-900 py-1 font-mono min-h-screen flex flex-col text-gray-300">
+	<!-- Navbar -->
+	<nav class="sticky top-3 mb-10 p-3 w-full sm:w-3/4 xl:w-1/2 justify-items-center mx-auto border border-black rounded-3xl bg-gradient-to-br from-gray-800 to-blue-900 z-50">
+		<ul class="flex items-center gap-0 sm:gap-3 lg:gap-5 text-xs sm:text-base lg:text-lg">
+			<li><a href="#home" class="hover:text-white hover:bg-blue-800 rounded-xl py-1 px-2">home</a></li>
+			<li><a href="#about" class="hover:text-white hover:bg-blue-800 rounded-xl py-1 px-2">about</a></li>
+			<li><a href="#resume" class="hover:text-white hover:bg-blue-800 rounded-xl py-1 px-2">resume</a></li>
+			<li><a href="#experience" class="hover:text-white hover:bg-blue-800 rounded-xl py-1 px-2">experience</a></li>
+			<li><a href="#projects" class="hover:text-white hover:bg-blue-800 rounded-xl py-1 px-2">projects</a></li>
+			<li><a href="#contact" class="hover:text-white hover:bg-blue-800 rounded-xl py-1 px-2">contact</a></li>
+		  </ul>		  
+	</nav>
+
+
+	<!-- Landing Page -->
+	<div id="home" class="text-center w-full flex flex-col gap-2 lg:gap-4 pt-40 min-h-screen">
+		<p class="text-3xl sm:text-5xl lg:text-7xl animate__animated animate__fadeInLeftBig animate__slow">hello! i'm satish</p>
+		<p class="text-sm sm:text-lg lg:text-xl animate__animated animate__fadeInRightBig animate__slow">full-stack dev | software engineer | BCA @ BAMU</p>
+		<ul class="flex gap-8 lg:gap-12 justify-center text-3xl sm:text-4xl lg:text-5xl animate__animated animate__fadeInLeftBig animate__slow">
+		<li>
+			<a href="https://github.com/kolhesatish" target="_blank" title="github logo">
+			<em class="fab fa-github transform hover:scale-110 transition duration-300"></em>
+			</a>
+		</li>
+		<li>
+			<a href="https://www.linkedin.com/in/satish-kolhe-0a87a0226/" target="_blank" title="linkedin logo">
+			<em class="fab fa-linkedin transform hover:scale-110 transition duration-300"></em>
+			</a>
+		</li>
+		<li>
+			<a href="https://drive.google.com/file/d/1L3DS5NK0UqCxrt0JlDJXv-afZfyAQjuG/view" title="resume logo">
+			<em class="fa-regular fa-file-lines transform hover:scale-110 transition duration-300"></em>
+			</a>
+		</li>
+		</ul>
+		<a href="#about" class="w-0 mx-auto" title="down arrow">
+			<em class="fa-solid fa-arrow-down mt-24 text-3xl sm:text-4xl lg:text-5xl animate__animated animate__bounce animate__slow animate__infinite"></em>
+		</a>
+	</div>
+
+	<!-- About Section -->
+	<div id="about" class="pt-28">
+		<div class="text-center w-4/5 lg:w-7/12 flex flex-col lg:flex-row mx-auto border border-gray-100 rounded-3xl p-5" 
+			data-aos="flip-left" data-aos-duration="1000" data-aos-once="true">
+			<div class="lg:w-2/5 mb-5 lg:mb-0 lg:mr-5">
+				<img src="./Satish-Kolhe.jpg" alt="profile picture"
+					class="mx-auto rounded-xl h-40 lg:h-64 mb-4 lg:mb-0">
+			</div>
+			<div class="lg:w-3/5 flex flex-col gap-3">
+				<p class="text-3xl lg:text-4xl text-center lg:text-left">about me &#128187;</p>
+				<p class="text lg:text-lg text-center lg:text-left">
+					Hi! I'm Satish, currently a BCA student at Dr. Babasaheb Ambedkar Marathwada University &#127891;. I'm passionate about software engineering and artificial intelligence &#129302;, particularly how I can
+					apply these skills into real-world solutions. I enjoy solving coding problems and have solved over 800+ problems on platforms like LeetCode and GeeksforGeeks &#128200;.
+				</p>
+			</div>
+		</div>
+	</div>
+	
+		<!-- Download Button -->
+		<div class="text-center mt-8 mb-12">
+			<a href="https://drive.google.com/file/d/1L3DS5NK0UqCxrt0JlDJXv-afZfyAQjuG/view" class="bg-blue-700 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-flex items-center transition duration-300">
+				<i class="fas fa-download mr-2"></i>
+				<span>Download Resume</span>
+			</a>
+		</div>
+	</div>
+
+	<!-- Experience Section -->
+	<div id="experience" class="w-full flex flex-col pt-28">
+		<p class="text-2xl lg:text-4xl mb-2 lg:mb-4 text-center">experience</p>
+		<div class="w-full lg:w-5/6 flex flex-col mx-auto p-6 gap-8">
+			<div class="flex flex-col" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+				<div class="w-full flex font-extrabold">
+					<a href="https://timekeeper.in/" target="_blank" class="mb-3 mr-3">
+						<img src="https://media.licdn.com/dms/image/v2/D560BAQGNwaIw0CrF-w/company-logo_200_200/company-logo_200_200/0/1719255341154/timekeepersconsultants_logo?e=1749686400&v=beta&t=o5QacBQRnJ9fa1iLsknQ4GFVU7DWlzpV8DKDBEQZ_Q8" alt="Timekeepers Logo"
+							class="rounded-full w-20 sm:w-auto max-h-12 hover:scale-105 transform duration-300">
+					</a>
+					<div class="flex flex-col gap-1">
+						<p class="text-sm lg:text-xl">Junior Developer</p>
+						<p class="text-xs italic lg:hidden">Jul. 2024 - Present</p>
+						<p class="text-xs lg:text-sm text-gray-500 italic mb-2">Timekeepers Consultancy</p>
+						<ul class="list-disc text-xs lg:text-sm font-extralight">
+							<li>Conducted extensive research on AI agents, including Meta AI's LLaMA models (7B and 70B)</li>
+							<li>Engineered a Zero Work automation bot that streamlined data scraping tasks</li>
+							<li>Built and enhanced 5+ dynamic websites with features such as form submission data storage</li>
+							<li>Streamlined development processes by utilizing HTML, CSS, JavaScript, and WP</li>
+						</ul>
+					</div>
+					<p class="ml-auto hidden lg:inline-flex lg:text-lg">Jul. 2024 - Present</p>
+				</div>
+			</div>
+			<div class="flex flex-col" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+				<div class="w-full flex font-extrabold">
+					<a href="https://www.ibm.com/training" target="_blank" class="mb-3 mr-3">
+						<img src="https://media.licdn.com/dms/image/v2/C4E0BAQEA0V9yzn_dPg/company-logo_200_200/company-logo_200_200/0/1646199475973/edunetfoundation_logo?e=1749686400&v=beta&t=ANDq0bFYPPSuTsJPGdVwafJuYENICQRHQblq-GqmHdc" alt="IBM Logo"
+							class="rounded-full w-20 sm:w-auto max-h-12 hover:scale-105 transform duration-300">
+					</a>
+					<div class="flex flex-col gap-1">
+						<p class="text-sm lg:text-xl">Training Program</p>
+						<p class="text-xs italic lg:hidden">Feb. 2024 - June 2024</p>
+						<p class="text-xs lg:text-sm text-gray-500 italic mb-2">IBM SkillsBuild</p>
+						<ul class="list-disc text-xs lg:text-sm font-extralight">
+							<li>Creating solutions to real-world challenge with hands-on experience in AI technology</li>
+							<li>Learned about Artificial Intelligence, NLP, Machine Learning with IBM certified course modules</li>
+							<li>Creating project based on AI during the internship duration</li>
+						</ul>
+					</div>
+					<p class="ml-auto hidden lg:inline-flex lg:text-lg">Feb. 2024 - June 2024</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Projects Section -->
+	<div id="projects" class="text-center w-full flex flex-col min-h-screen py-28">
+		<p class="text-3xl lg:text-4xl mb-8">projects</p>
+		<div class="grid grid-cols-1 lg:grid-cols-2 w-11/12 lg:w-3/5 mx-auto gap-8">
+			<div class="bg-gray-800 rounded-lg shadow-lg p-5 text-white hover:shadow-2xl"
+				data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+				<div class="transform hover:scale-105 transition duration-300">
+					<a href="https://social-media-app-1-l6eo.onrender.com" target="_blank">
+						<img src="./social-media.png" alt="Project Image" class="rounded-lg w-full h-72 object-cover mb-3">
+					</a>
+					<h3 class="text-xl lg:text-2xl mb-2">Social Media App &#128242;</h3>
+					<p class="text-xs lg:text-sm mb-3">Twitter clone with post creation, commenting, liking, following, and JWT-secured authentication.</p>
+					<div class="flex justify-center gap-3 lg:gap-4">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO4AAADUCAMAAACs0e/bAAAAWlBMVEX///9h2vtW2PtU2Pv3/f/7/v9l2/vo+f7y/P/Q8/5j2/vF8P2/7/103vvw+//k+P6r6v2L4/y37f3X9f594Pyb5vzE8P2R5Pyi6PzP8/6E4fze9/6g6Pyp6f1t1n4wAAAUSUlEQVR4nM1da6OqOg49FAEVEQQUH9v//zcHUelqm0JaLHfWl5m7D5aGpnk1Sf/9W4hHfUqjD9rrpVw6norycm2/o6en+vHb0V2RXdNYRBJCxPtTvvnN4Nu82yujRyJOr9lvBvfAsVNnM9J8ui0f/NYJcvC4Oy4f3AdVTEznjTiqF01qW0cTg1e/osABx4L6+LDEZ2+Cj2dyYeXYxeoL/NhPTWgJwXPEDvixRJzDw85rQHD8TFwHTp6kPNARryqjS86UXgRHB7eBDxF35BXXd5POz+e7DK3DvLKWwzRvpD9Sdwzc1SXote0AemHiK3fYK03sd3TtpfeQFCIOyrTi4rrLNskmaw5dQZEsUtZGe6TUb+OiOzTD8Ltrob7XcZ/4YqPYUcUO/y07FIRcFc/5UZ/Ez0RxUIyonaL8xDrsfIV3xiYhWWUSPKspCS0uRGUajE9YYMHeJUuQIbU5+cihMHahuEyNmRvExgXNqznSu4a18SenZt8+ubFa8dk+5Fn/OiKlv+M/RXCssbwJTKqbeK7WWVoUW/rJrf5phKgnBu7gaWcrxhkX+bZ0+m1/xpo11GONwQd/k8MmUulP75Cf4M5/WdlqlMTEqtXaRxGzdgl88OC6dyNnl84/rdNimhy6aUF9ER1yeePQukjK0MkN9kXW6raQsgES/Z9bTrCilnOwSrQf4Sy/rEXyaKg0glBg6UKK6bhvJUdMiPufoBjf1DJ/0exVmtJxATPV0xB7UpQRGKN1UeFOgQuO44dl8fKARPcoPib0Y5LPpyC5OQ5raezktnFw7LSoVjysYqP90SECJd1tsZt/egHkd927qPidtpC3f/9u2p9c5i1NHT6PeaEbX8Tdum9k6gaO81xZW5G6hY/l5p0y7JZjlFSu9qq2gVULU7SO1qB0ysLKqlGWCmfn2vAD5Fo7q5PDSC7D1vHH1m+vvfG00Ev4zHOAjc/T/n6Qvm7scVZzIOn1CcKUUh+GPDOSr2HaVCpuBL2xz3mStKuCBmAhmu5lnDcGvbGX4pThsqDx9Z2f2pV46OT6zXYzHtkEtTOkiJhx7a24qBrI0z+XLr74wdmqFflScjN9df0kzerkFl7kbnVqo72XIkmkuRPS411IbkKcLXmxyUrkLty7mif4nq+b8f3GSsy8W0RuR1A7E761YCXJ3CzRu1eSWq/o+Gb8ccyNgPhAmhnu51EXu4vgrI6265gZmX/URElviA+K/ey8RMd1bOaj91c9KstZ6QEdx0nDtwsZrPJ3AAugTQz+7R9uZUe3FYJBQQPrUgG47bcT0PZNM0C1JE5Ow63k3kPwxil1TeHcMd6CK+6WCletFLwZD8SES8BF8XPT0WzcopHl5PfKs4ywh2Ln8bM6GENH3KUx+OMlfgaXs/gxEun01d1Re2waxVJW3Xl12fnTkCIkbJzZJyaGtqO+5Wv8N7Y1CQoipMmsxMS4QSI84zUpwm/BDtLJQ5M4bK6gDBJxv2tJCmUJRTwzJy95LHRulasmSpREYGIDKB4/089aSw9hagbPMFDsi9lUFOb2PTlOwh/Si9tzHkdPwJZ2gZubt32lt+t+AOEGGb7hpIGUrJVTRDdj+0JQPXRuBpwjMLw21LgT2wzFFUP7NmsJ5h4u2QpnNKeedVU9/87nrsepx+t/z+e/Z1XVT3iMYSdJSRX/gqJJyJWYFBPbrMnVpBvxRhSZf1T/VOVNdpwS0VJS+YT13HCdNCOTTbmr/+5FGgk9vZwN0f80Sov7X30rtwTZEIYMnwMKskoNQWS7+tymryR6TzJNskUcp+25vmkvWk9SYbhq9PCPPaHFD+k0yO6p7urd12OSvn3QQNUH0kzqhcrxVt1TwSr9WUp0LNJ79aJZpsOEDWW8IQVFei5CraiN5lcphtRuoW2qF+pVCZyCezqMB1j1cKsgvJHxr7kW8/OYglCwbKziHPLIZJN3HlLpXUMm9mnR3ntT6twbVtcBvUnVm1ine1uke0HUgXHGjsXPisFVbPO712KIQ/PIGDPaZI/m4PUCcc9/nVy1O7FKLwf+3Lf4l+k6Cg14srC/pxGT30XU/fDcs7xOlIaPhMZx1P7Vu34lMb/VUTWCCyV2/Yr3Fmkbcdg8jn7ThCDJ25n9+mqn0J4PzZejNvhvjidnSkr3dwtsmsO13c/R3Kvky9K6om21n3lJ1D7zTHkNuH3uNjyceauuYJLdnu3MjhL7askuzuhmDoCiNKQQ6mV3Kw9j8OahapLNqEEhOl+efpwYBoX5NWFCPpkEmEdoBkDMTCUD8d3nQL+k0mQ+X1B6CaYLBjamT5KJErkyAyZQCrq3cp44uZpb286ysiJOnw+oadWt9C0la5ygSDqdeaR/IrJHldqEqFvrFFs3BxG3724nUrPqYXw5H1tx7yywTEH7mlAYPsRtjrVNbTj0sLhRVfA9D7djZxdrWRruPO+jVxm613c/UZJ3rKny98kSYAVbUkKJ6AkbQsZPtO+Pcso7SSSzSqsTOXrWczW1wCeGVqLsVhGfNCNNcrMSXUc5taART2WRVlBeqsUgmxPZ02HOIU6IpRWpqbyBm2FI7Lmw6LAKbUn4nAeTl0dsK2ILxqdJaUn0rhCkaXYkvzOW5S+y2XdQYA+2FfAUtVNyosPBVM+O3Hg8LizTlptUhgMzu0h1BQr4UWZkmlw2sTO7yNgzEI1Cn7i1mkXAV+MmRYk6Jac2x7JpyuMUnx0pCV+RO0hFYxBsK1PS829FOnFAD9bc1zAGv2/iILKp2vQdu0jbq93IhCYpY4Ie7OgJmXszGjWQxt1JfUrMVMGDfdMYs7HVoSSqIdSbaJVljfHU//M9G7stp+KgnzoRj2vUxt2MBQjSpPu8RP7YouGNXhov48WisECOfFhXhtPn5OBGM4FNepWzyd5xnBWs8PkH1YueGy1ISro7nSho4QkhoCFlA5TufOJAo6oY/RRVTbeNO4bBeVWVIFgYdPIvXQE4PE8KT/CbtRdwggaJusDqztwp/8bLZgW1U6iOKCkaJtosWvI/O3hii6qPV26ptg1C/ldyq6M901uE9zdK0IWazRS1FnpBzfbr2Shfl4NSbXYoVSMoTHsnHgMgm7pkps+QacBo9FLCDY20RK41+2hIacshm7UpPaD45//oh4MVRDn15Qy19HkPvgBXhB81wKYr4xeFRXcqYjpTkpbMUGGcK1EcWpEvcMnpRXo/8hxPMJ1q3eg1I0bgnJFSLJpQDzqd+yXwoT8LgclPbmHa1pgLvbF4Rz/EDynn2y3bBqXwYJ1BCrVroNRsEUdGlnkH4OQuMGskXdNPQMcO+f9g/DoHSk2bkJoM80SY2r0X8w2uc+wUUxvEnxHmnIUhS6gpz4vlN0jrQf9U7jEhDAVvQH17pI8eNXLJchFuMgfJzXozBo9midKX7DcrmKIepyudOhnS3jlFTJBunba8HgcTGRr3vk173lAZla4FYidzkB9LXV6v7BOpQM5QkuOVYIjWDn3gxzjF+oKUHYpw9grVS3u+hZIcrzMO9KXoEfT9bQe9L1Hb+cU3pXhP/8mX+YVKgVVpTyVjCmarYzf7hjlAEO3f0ip2mC5dJ3JcSC6GSVj1DwaglwtUynil3KGZR+evL2VmpZBs4RyLpdWDqtilntjMXikwfnvSs1Me8eJmrNM8LxpKi/qQy7tMEalGipeskhP4w56LHjkNmk9Expc1U8QOyoRINN7w0ETQDuKAAT93i0W/H4FcXtPMp0FGBHUL1KMdF8SnHxjLcB/KiGdQy8sVzdS5kr64HhIGlmSvTtnVjEwMQkiH5a4/RYPiUzN8E7tmxkEeyetTATdzmiMjKF+HmM2Nxc2UwU1Eb1zrsaHC8C2cMJ/CTVoRMpdcXtadIJTBTcXm3BSImZWm+BwuTuCO2pRUjIB8UAOlYrYUWzhFmLD72Zd9cJH2Du4z6ciSsuQ0y85knxAysuuSGHBESfdlC6WYgk8vWIcpnj4TDIIBcgsIi0o5NYF++fwZIrVyoyrtZyIus0DuwB+aetTXnytPIYUGcg/MkR2uavAN4M4niszhtrMBhZ3NnndSDUCBWioMAlKmF8ea+mRANW9Qwqk+Ka+jLszmpa9TemQWvbNBn5fUhiwjFv+pHYNV51Iz9S0H6grgSC5XyaFzFUpb3rugT1hzbUCIajCs3TKddC20s/X5/YEZcsMfcDFIy0fPmPjOhM4CSQx2AcE1ewaoKWzTftLOm0UxwzFyZ3yEAG41y8dqzLS22PYemPCHeSE7Yka6NIz7FowLOaZToMEULfW/2HVF00FlkBBxZ/uoGAP5mPIl07g/6lxE28bGZSriamca0IlfyQTTmTht2tyu7cCnaXu92cfHFP3v1qYSE83xr3o2k80TMEx5EdmyvFDpjqOdZ5QRzGm7nd5+mHYz6ol6XvUmlVF7Y2/OU5rPCgvBlJGDAfSFzWjQEBiNcDTjyF9tzGvMxNT9lxsznVmIM/EDOCwBIwqztxf1zbIMBMnqxJwy4vLPmYRmYwMPBN8NbwV4GXnFPxFAAbIJruNtgpt3VAHqvANPpvLF+0qVtcDL+GewNfyKiN4AOaUYXImNm49kNYIoONEoOt8lbi9yvUCSqAanvUjEAfZyFbgNSVKytRRlcl2J7E6aPyI6fTUH8LLK53hJoLe0wmwZVePsDG5ObpbK4vjOj1TsyEqi1zZ+136DBtR+icmCnrUmWGeiJxSo2v5VHW+Z6FTqOYGDheBXmWwNH9lwnjAnzavYEhnEcPXOwFbWCrHe6XA+S0pqa7EsfFEzwoSOnlfDIbBFTccQS1Cs04sqr37tdoJHEOoepJXPgd3BKqeGOc0GNYWovWu0ibtHNXIPpT44GvfuqUvKr3VHIykvM+TabjrloplpH9H/a/F3KS2Vce7lRBCfUuvhsvza2hn4M5f78rYh2XOOp3tHLmq7eveVTBind0z4wAbsX0WW7equjWa7K4jo+aN+TjlZUGgSHRenKn9kjTc7YxxdPI6PvOoKVlszEd9/2aprW7e8nihCbxPjdCCrHJ7tuf3bhCjqn186lVnqgufm0lWHfNc8Mqpt3BvJNns0u/xQ0fdEzNMaqClZVt89Go8JIW+K36dFj3bA6/+le3nPu8fHfFXHB23A1tttzpMKhi5MNyMF/0ftuULeePEFWvD/BZG/ipgwAbfB5oOaWJHSV2e9i1Trwe+SVq4LfYXTt70NkM7bAD8gNEpP1e6lb8DHDH8zOlwGO/orx8fh2gqf7mksQnvz5Vw3owENEavwvfVkgqGeGHRsLs9TEf2oHeigvaLidD00+nswLSw05pIKk+0jr89DU1tPosXQ0PZc542lj6/MWg19dTba/9Ohxt5U0i8ZtkJ9bDdhgA2Qmj90J3nIHGOoASVoXZVNbyleDjXgcOnty6as4DFGbhekcYaWVdLI4Cj5O8s3Ulx6hnJxm8MigKRiPK1k3Fg5T8kMYZiFwGGel2KyIRNgWPsGI+Q2wYLZU7xYvCwXcepC6QHpkfIORfBIYv5YmRmalrIqsF2VOF+Ngwne1FZTPA5mpBauCQorq+AGBmaavFo1ZYirmX+mITWc1yXPfECiO9etxsiVueGVG+S4cUS4jjCsaIbkJrZnjTk9+jGoch0R+0xJCvzAvfOl5HFo8Hm30qR8CQexIyXIghZvDPjJRNuNcL5XiYF+CGs1y4vxXOpBlYIU2dRXadfr5MxJ7R9WE0lnxClwouZ/fhw69VpPp/PY2s3Y8YWsc3GUEUoK4ltZqvflue3BxVeW8yC1pGvmhXLJ1mBNYMMSxys80TYNqXhB4TnGTZQM8Rd1SnmC68XjcD9fyAtpS2vkZhaK+STOaj2A62AQvwkZrlpymbQ9HO9uGm3WMavknqFrbSdh61nl0dh4pavCl917TyQgRu6VeC+AYxbyIviFCoC6Ct7LQwdyQ95Zmi9U72a1mKsKekPK+aA+ApDrp95bjV6n7mcSycJuH0wstmYSrXq99RxmHWZeJqpeUEt+fY8sVyIXGm74nZsbpfR+9IJ/H1IRLTEzXjCbYzr6Bh+sZGaUy2JiVCtQL3pXMiL9XYQXzrSZ4RGQ8IgQ+gD2jLuI0JXQOJS7Mrp5RAh94H/h/JbuzjyMxW4r+0XtEyH0APYxc0I5mZmbOm4NeaYe9kpa34ZAerFyVqr/7RaqgmB82Ehk7bdpNJG87+VLpi63k4AGERI2OwO6SvL1e6Ld5JQOwYuj2s5G3Pl2GlyeHdLKwIRjfvxeqwsfBZMmvCbv41ABZUxhj8Rg13A3r2Y3wirqq8529OU+CH15tgyp8Rq6b/TbJZQzsU7/FCyBALdJh748WxbysFrC5lqaqH7BiHGNCsd9lUGRZfficADTn10K4+IqMwqnt3hmXBGFPYd9qWAD2mXMCauDkQFMJStoj4hoTrdAuseColkm8F6ayWh4qV+VIwry+aNuXcbtpI0FWVjheXm+28sbmdETxO75GJ5SPHUzpdYbJjSwLt4WND3+mTX/EzxqdIwX4mzjHDhtWSVbHTPhYlIREDX/YtoJMCvge4LJFb4iJ4QvvPinNV2964J0Q5WGz7vwhOsft0YhyVZJslxjcf9pnfIENiE45h1RjyH2DH/nRjQ8ElGX4+hqV4A1du4LjbISQrTXV5rure7oMrK53hUfED07htGLrr69UoOvWlleYO8AoJ/1vBLpbRn5rKV9g7471DJ8cPsRYL2b15zq1SH+nlBnZpZxVyiqGbFhNbqctRhMGLaJDekqUvmLra3xgkJs6mH17MjbVg1qA/u5Oja2MKoktvBMJSeu4tQg2lXXdgAdJB9n5EvsCxd7kHb4kOHraQjYWqe8ympPC7UEfZ/ue3CfLfIT1GQfobiof5DstK0LiuI4XcmWopDk9wgm9VKO99+VS2f1PUJ9K+LonoevcpzEpqm7oVdeWpyeefljGbIp8+epGIZvu7pZPPr/ACo20Vq0saUrAAAAAElFTkSuQmCC" alt="react logo" class="w-6 lg:w-8 h-6 lg:h-8 object-contain hover:scale-105 transform duration-300">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="node logo" class="w-6 lg:w-8 h-6 lg:h-8 object-contain hover:scale-105 transform duration-300">
+						<img src="https://codekitapp.com/images/help/free-tailwind-icon@2x.png" alt="tailwind logo" class="w-6 lg:w-8 h-6 lg:h-8 object-contain hover:scale-105 transform duration-300">
+					</div>
+				</div>
+			</div>
+			<div class="bg-gray-800 rounded-lg shadow-lg p-5 text-white hover:shadow-2xl"
+				data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+				<div class="transform hover:scale-105 transition duration-300">
+					<a href="https://github.com/kolhesatish/dropbox-clone" target="_blank">
+						<img src="./file-uploader.png" alt="Project Image" class="rounded-lg w-full h-72 object-cover mb-3">
+					</a>
+					<h3 class="text-xl lg:text-2xl mb-2">File Uploader &#128190;</h3>
+					<p class="text-xs lg:text-sm mb-3">File upload system with Firebase Storage, NextAuth, and Clerk Authentication.</p>
+					<div class="flex justify-center gap-3 lg:gap-4">
+						<img src="data:image/png;base64,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" alt="react logo" class="w-6 lg:w-8 h-6 lg:h-8 object-contain hover:scale-105 transform duration-300">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg" alt="typescript logo" class="w-6 lg:w-8 h-6 lg:h-8 object-contain hover:scale-105 transform duration-300">
+						<img src="https://codekitapp.com/images/help/free-tailwind-icon@2x.png" alt="tailwind logo" class="w-6 lg:w-8 h-6 lg:h-8 object-contain hover:scale-105 transform duration-300">
+					</div>
+				</div>
+			</div>
+            <div class="bg-gray-800 rounded-lg shadow-lg p-5 text-white hover:shadow-2xl"
+				data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+				<div class="transform hover:scale-105 transition duration-300"> 
+					<a href="#" target="_blank">
+						<img src="./meeting-schedule.svg" alt="Project Image">
+					</a>
+					<h3 class="text-xl lg:text-2xl mb-2">Meeting Scheduler &#128197;</h3>
+					<p class="text-xs lg:text-sm mb-3">Automation tool to manage Google Calendar integration for seamless client scheduling.</p>
+					<div class="flex justify-center gap-3 lg:gap-4">
+						<img src="https://static.wikia.nocookie.net/coding-help/images/6/69/JavaScript.png/revision/latest?cb=20230517123229" alt="javascript logo" class="w-6 lg:w-8 h-6 lg:h-8 object-contain hover:scale-105 transform duration-300">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer id="contact" class="flex flex-col text-center py-4 text-xs lg:text-base lg mx-auto gap-1">
+    	&copy; 2025 Satish Kolhe. let's connect!
+		<ul class="flex gap-4 justify-center my-auto">
+			<li>
+			  <a href="mailto:kolhesatish96@gmail.com" target="_blank" title="mail logo" class="text-2xl">
+				<em class="fa-regular fa-envelope transform hover:scale-110 transition duration-300"></em>
+			  </a>
+			</li>
+			<li>
+			  <a href="https://github.com/kolhesatish" target="_blank" title="github logo" class="text-2xl">
+				<em class="fab fa-github transform hover:scale-110 transition duration-300"></em>
+			  </a>
+			</li>
+			<li>
+			  <a href="https://www.linkedin.com/in/satish-kolhe-0a87a0226/" target="_blank" title="linkedin logo" class="text-2xl">
+				<em class="fab fa-linkedin transform hover:scale-110 transition duration-300"></em>
+			  </a>
+			</li>
+			<li>
+			  <a href="https://drive.google.com/file/d/1L3DS5NK0UqCxrt0JlDJXv-afZfyAQjuG/view" title="resume logo" class="text-2xl">
+				<em class="fa-regular fa-file-lines transform hover:scale-110 transition duration-300"></em>
+			  </a>
+			</li>
+		  </ul>
+	</footer>
+
+	<!-- JavaScript -->
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
